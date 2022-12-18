@@ -553,6 +553,7 @@ p {
 .fr_img {
     margin-top: 20px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .оплате {
@@ -569,7 +570,7 @@ p {
         text-align: center;
         margin: auto;
         width: 119px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .mrt22 {
@@ -579,5 +580,170 @@ p {
 
     .container-fluid {
         justify-content: start !important;
+    }
+
+    .btn1 {
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: linear-gradient(0deg, #6B59CC, #6B59CC), linear-gradient(0deg, #5946D7, #5946D7), linear-gradient(0deg, #453888, #453888), linear-gradient(0deg, #410F9E, #410F9E), #2E1066;
+        border-radius: 8px;
+        width: 45px;
+        height: 44px;
+        text-align: center;
+        border: none;
+        text-align: center;
+        /* padding: 15px 10px 12px 50px; */
+        margin-top: 13px;
+    }
+
+    .input1 {
+        font-weight: 400;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        color: #55556D;
+        padding: 8px 25px 11px 10px;
+        background: #F4F5F7;
+        border: 1px solid #DEDEE2;
+        border-radius: 6px;
+        margin-top: 13px;
+        width: 240px;
+        height: 44px;
+        margin-left: 10px;
+    }
+
+    .position_res {
+        position: absolute;
+        top: 0;
+    }
+
+    .img_res_pos {
+        position: absolute;
+        left: 135px;
+        top: 60px;
+    }
+
+    .carousel-inner {
+        width: 300px;
+        height: 200px;
+        margin: auto;
+        border-radius: 10px;
+        background: #EFEDF8;
+        border: 5px solid rgba(69, 56, 136, 0.2);
+        position: relative;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        bottom: 15px;
+        z-index: 2;
+        display: flex;
+        justify-content: start;
+        padding: 0;
+        list-style: none;
+        margin: auto;
+        width: 199px;
+    }
+
+    .carousel-control-next {
+        width: 40px;
+        height: 40px;
+        background: black;
+        color: black;
+        box-shadow: 0px 4px 10px rgb(46 16 102 / 25%);
+        border-radius: 10px;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+    }
+
+    .carousel-control-prev {
+        width: 40px;
+        height: 40px;
+        background: black;
+        color: black;
+        box-shadow: 0px 4px 10px rgb(46 16 102 / 25%);
+        border-radius: 10px;
+        position: absolute;
+        top: 70px;
+        left: 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 60px;
+        height: 3px;
+        padding: 0;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background: linear-gradient(0deg, #5946D7, #5946D7), linear-gradient(0deg, #453888, #453888), linear-gradient(0deg, #410F9E, #410F9E), #2E1066;
+        background-clip: padding-box;
+        border: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        opacity: .5;
+        transition: opacity .6s ease;
+    }
+
+    .скидкой {
+        font-weight: 600;
+        font-size: 20px;
+        color: #2E1066;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+
+    .действует {
+        font-weight: 400;
+        font-size: 14px;
+        color: #3D3D4B;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .card_one1 {
+        background: #FFFFFF;
+        border: 1px solid #E8E3E3;
+        box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+        width: 150px;
+        height: 160px;
+        margin-bottom: 10px;
+        margin-left: -3px;
+        margin-right: 5px;
+    }
+
+    .card_one1:hover {
+        background: #FFFFFF;
+        border: none;
+        box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+        width: 150px;
+        height: 160px;
+        margin-bottom: 10px;
+        margin-left: -3px;
+        margin-right: 5px;
+    }
+
+    .icon_div1{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .Оригинальные1 {
+        font-weight: 400;
+        font-size: 18px;
+        color: #1B1D1F;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+
+    .товаров1 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #505255;
+        margin-left: 15px;
     }
 }
