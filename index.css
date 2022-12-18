@@ -457,10 +457,12 @@ p {
 
 .footer1 {
     background: linear-gradient(0deg, #2F2B4A, #2F2B4A), #2F323D;
+    background: linear-gradient(0deg, #2F2B4A, #2F2B4A), #2F323D;
 }
 
 .list1 {
     margin-bottom: 32px;
+    width: 222px;
 }
 
 .list_item1 {
@@ -474,7 +476,7 @@ p {
 .list_item2 {
     font-weight: 500;
     font-size: 13px;
-    color: #F4F5F7;
+    color: #919191;
     margin-bottom: 8px;
 }
 
@@ -512,7 +514,6 @@ p {
 }
 
 .five_div {
-    cursor: pointer;
     margin-top: 20px;
     width: 208px;
 }
@@ -566,7 +567,7 @@ p {
 }
 
 @media (max-width: 575px) {
-    .logo_div {
+    .logo_div2 {
         text-align: center;
         margin: auto;
         width: 119px;
@@ -727,23 +728,124 @@ p {
         margin-right: 5px;
     }
 
-    .icon_div1{
-        padding-top: 20px;
-        padding-left: 20px;
+    .icon_div1 {
+        padding-top: 15px;
+        padding-left: 15px;
     }
 
     .Оригинальные1 {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         color: #1B1D1F;
-        margin-left: 15px;
+        margin-left: 10px;
         margin-bottom: 5px;
+        margin-top: 5px;
     }
 
     .товаров1 {
         font-weight: 400;
         font-size: 14px;
         color: #505255;
-        margin-left: 15px;
+        margin-left: 10px;
+    }
+
+    .accordion-button {
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .accordion {
+        --bs-accordion-color: #F4F5F7;
+        --bs-accordion-bg: transparent;
+        --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+        --bs-accordion-border-color: var(--bs-border-color-none);
+        --bs-accordion-border-width: 1px;
+        --bs-accordion-border-radius: 0.375rem;
+        --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
+        --bs-accordion-btn-padding-x: 1.25rem;
+        --bs-accordion-btn-padding-y: 1rem;
+        --bs-accordion-btn-color: #fff;
+        --bs-accordion-btn-bg: var(--bs-accordion-bg);
+        --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e) !important;
+        --bs-accordion-btn-icon-width: 1.25rem !important;
+        --bs-accordion-btn-icon-transform: rotate(-180deg) !important;
+        --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out !important;
+        --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e) !important;
+        --bs-accordion-btn-focus-border-color: #86b7fe;
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25remrgba(13, 110, 253, 0.25);
+        --bs-accordion-body-padding-x: 1.25rem;
+        --bs-accordion-body-padding-y: 1rem;
+        --bs-accordion-active-color: #0c63e4;
+        --bs-accordion-active-bg: #e7f1ff;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .accordion-body {
+        font-weight: 400;
+        font-size: 16px;
+        color: #919191;
+        line-height: 30px;
+    }
+
+    .btn-N {
+        width: 100%;
+    }
+
+    .paragraf {
+        margin-left: 50px;
+    }
+
+    .im_dv {
+        position: absolute;
+        top: 16px;
+        left: 65px;
+    }
+
+    .no_name {
+        padding-bottom: 20px;
+    }
+
+    .five_div_res {
+        text-align: center;
+        width: 273px;
+        margin: auto;
+        margin-top: 35px;
+    }
+
+    .txts_r_div {
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .hr12 {
+        margin-bottom: 20px;
+    }
+
+    .fr_img1 {
+        width: 67px;
+        height: 36px;
+    }
+
+    .fr_img2 {
+        width: 47px;
+        height: 36px;
+    }
+
+    .fr_img3 {
+        width: 74px;
+        height: 36px;
+    }
+
+    .df-df_div {
+        padding-bottom: 30px;
+    }
+
+    .reserved {
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding-bottom: 20px;
     }
 }
