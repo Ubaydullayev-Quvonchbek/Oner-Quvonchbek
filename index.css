@@ -607,20 +607,36 @@ p {
         margin-top: 13px;
     }
 
-    .input1 {
+    .input12 {
         font-weight: 400;
         font-size: 12px;
-        display: flex;
-        align-items: center;
         color: #55556D;
         padding: 8px 25px 11px 10px;
         background: #F4F5F7;
         border: 1px solid #DEDEE2;
-        border-radius: 6px;
-        margin-top: 13px;
-        width: 240px;
+        border-radius: 5px;
+        margin-top: 0;
+        width: 245px;
         height: 44px;
-        margin-left: 10px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .header1 {
+        margin-bottom: 0px;
+    }
+
+    .btn12 {
+        background: linear-gradient(0deg, #6B59CC, #6B59CC), linear-gradient(0deg, #5946D7, #5946D7), linear-gradient(0deg, #453888, #453888), linear-gradient(0deg, #410F9E, #410F9E), #2E1066;
+        border-radius: 5px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        /* border: none; */
+        text-align: center;
+        /* padding: 15px 10px 12px 50px; */
+        padding: 8px;
+        margin-top: 10px;
     }
 
     .position_res {
@@ -646,7 +662,7 @@ p {
 
     .carousel-indicators {
         position: absolute;
-        bottom: 15px;
+        bottom: 50px;
         z-index: 2;
         display: flex;
         justify-content: start;
@@ -664,8 +680,8 @@ p {
         box-shadow: 0px 4px 10px rgb(46 16 102 / 25%);
         border-radius: 10px;
         position: absolute;
-        top: 70px;
-        right: 0px;
+        top: 75px;
+        right: 25px;
     }
 
     .carousel-control-prev {
@@ -675,9 +691,9 @@ p {
         color: black;
         box-shadow: 0px 4px 10px rgb(46 16 102 / 25%);
         border-radius: 10px;
-        position: absolute;
-        top: 70px;
-        left: 0;
+        position: relative;
+        top: -122px;
+        left: 25px !important;
     }
 
     .carousel-indicators [data-bs-target] {
@@ -722,8 +738,12 @@ p {
         width: 150px;
         height: 160px;
         margin-bottom: 10px;
-        margin-left: -3px;
-        margin-right: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .navbar .container-fluid{
+        justify-content: space-between !important;
     }
 
     .card_one1:hover {
