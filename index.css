@@ -353,7 +353,7 @@ p {
 }
 
 .cards {
-    margin-bottom: 60px;
+    margin: auto;
     background: #FFFFFF;
     border: 1px solid #DEDEE2;
     border-radius: 10px;
@@ -362,15 +362,23 @@ p {
 }
 
 .cards:hover {
-    margin-bottom: 60px;
     background: #FFFFFF;
     border: 1px solid #DEDEE2;
+    margin: auto;
     border-radius: 10px;
     width: 300px;
     height: 410px;
     border: 1px solid #F4F5F7;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
+}
+
+.mboyt {
+    margin-bottom: 60px;
+}
+
+.mboyt:hover {
+    margin-bottom: 60px;
 }
 
 .card_img {
@@ -453,6 +461,7 @@ p {
     font-size: 24px;
     color: #1B1D1F;
     margin-bottom: 23px;
+    margin-top: 60px;
 }
 
 .footer1 {
